@@ -1,0 +1,150 @@
+**Títulos para o Ebook:**
+
+1. **CSS Wars: The Selector Awakens**
+2. **Mastering CSS: The Jedi Path**
+3. **The Force of CSS: Unleashing the Power of Selectors**
+4. **Galactic CSS: Rule the Styles with Selectors**
+5. **Selectors Strike Back: A CSS Guide to Dominate the Web**
+
+---
+
+# **CSS: Entendendo os Principais Seletores**
+
+Aprender CSS é essencial para qualquer desenvolvedor que queira criar interfaces impactantes e funcionais. Neste capítulo, vamos explorar os principais seletores CSS e como utilizá-los no dia a dia, com exemplos práticos que simulam cenários reais. Vamos lá!
+
+## **1. Seletores de Tipo (Type Selector)**
+
+Os seletores de tipo são usados para estilizar elementos HTML específicos pelo nome da tag.
+
+### **Exemplo:**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        p {
+            color: blue;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <p>Este parágrafo é azul.</p>
+    <p>Outro parágrafo azul.</p>
+</body>
+</html>
+```
+
+### **Dica:** Use seletor de tipo para aplicações gerais, mas combine com classes para estilos mais específicos.
+
+---
+
+## **2. Seletores de Classe (Class Selector)**
+
+Os seletores de classe permitem estilizar elementos que compartilham a mesma classe. Eles começam com um ponto (`.`) no CSS.
+
+### **Exemplo:**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .destaque {
+            background-color: yellow;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <p class="destaque">Este texto está em destaque.</p>
+    <p>Este texto não está em destaque.</p>
+</body>
+</html>
+```
+
+### **Dica:** Sempre escolha nomes de classes descritivos e consistentes.
+
+---
+
+## **3. Seletores de ID (ID Selector)**
+
+Os seletores de ID são usados para estilizar um elemento único. Eles começam com um sustenido (`#`).
+
+### **Exemplo:**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #titulo {
+            font-size: 24px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="titulo">Bem-vindo ao Mundo CSS</h1>
+</body>
+</html>
+```
+
+### **Dica:** IDs devem ser únicos na página para evitar conflitos.
+
+---
+
+## **4. Seletores Universais (Universal Selector)**
+
+O seletor universal (`*`) aplica estilos a todos os elementos de uma página.
+
+### **Exemplo:**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sem espaço extra!</h1>
+    <p>Todos os elementos estão resetados.</p>
+</body>
+</html>
+```
+
+### **Dica:** Use com cuidado, pois pode impactar toda a estrutura.
+
+---
+
+## **5. Seletores de Atributo (Attribute Selector)**
+
+Os seletores de atributo estilizam elementos baseados em atributos HTML.
+
+### **Exemplo:**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        input[type="text"] {
+            border: 2px solid green;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="Digite seu nome">
+    <input type="password" placeholder="Digite sua senha">
+</body>
+</html>
+```
+
+### **Dica:** Excelente para formularários e interfaces dinâmicas.
+
+---
+
+Esses seletores são apenas o começo. Combiná-los e utilizá-los estrategicamente faz toda a diferença no design de uma página web. No próximo capítulo, exploraremos **pseudo-classes e pseudo-elementos**, levando suas habilidades em CSS a um novo nível.
+
